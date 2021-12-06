@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 
 const toDoForm = document.querySelector('#todo-form');
 const toDoInput = toDoForm.querySelector('input');
