@@ -1,60 +1,117 @@
 * {
-    margin: 0; padding: 0;
-}
-
-.container {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Jua", sans-serif;
 }
 
 ul, li {
-    list-style: none;
+  list-style: none;
 }
 
-input {
-    color: #fff;
-    outline: none;
-    width: 100%;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    padding: 0.5rem;
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-input::placeholder {
-    color: #fff;
+.greeting-wrap {
+  position: absolute;
+  top: 2rem;
 }
 
-button {
-    background: transparent;
-    outline: none;
+.clock {
+  font-size: 4rem;
+  text-shadow: 4px 6px 3px rgba(66, 66, 66, 0.54);
+  margin-bottom: 2rem;
 }
 
 #greeting {
-    color: #fff;
-    font-size: 5rem;
-    margin-bottom: 1rem;
-}
-
-.todo-list, .clock, .quote {
-    color: #fff;
+  font-size: 2rem;
 }
 
 .img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  object-fit: cover;
+}
+
+.content {
+  background-color: rgba(56, 56, 56, 0.5);
+  border-radius: 0.5rem;
+  padding: 2rem 4rem;
+  margin-bottom: 2rem;
+}
+
+input {
+  color: #fff;
+  background: transparent;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 0.5rem;
+}
+input::placeholder {
+  color: #fff;
+}
+input.login-input {
+  width: 10rem;
+  font-size: 1rem;
+  text-align: center;
+}
+input.todo-input {
+  width: 15rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.todo-list {
+  font-size: 1.5rem;
+}
+.todo-list li {
+  line-height: 2;
+}
+.todo-list li button {
+  font-size: 1.5rem;
+  color: orange;
+  margin-left: 0.5rem;
+}
+.todo-list li button:hover {
+  cursor: pointer;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  color: #fff;
+}
+
+#greeting, .todo-list, .clock, .quote, .weather span {
+  color: #fff;
+}
+
+.footer {
+  position: absolute;
+  bottom: 2rem;
+  text-align: center;
+}
+.footer .copyright {
+  margin-top: 0.1rem;
+  color: #fff;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
+
+/*# sourceMappingURL=style.css.map */
