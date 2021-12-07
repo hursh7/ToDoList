@@ -2,7 +2,7 @@
 
 Vanilla JS를 공부하기 위해 만든 Todolist 웹 어플리케이션입니다.  
 
-페이지 링크: [**https://hursh7.github.io/portfolio2022/**](https://hursh7.github.io/portfolio2022/)
+페이지 링크: [**https://hursh7.github.io/ToDoList/**](https://hursh7.github.io/ToDoList/)
 
 ## Preview
 <img src="https://user-images.githubusercontent.com/48500615/144991441-d89e3621-014d-461d-8d28-ed9030b94061.png" width="100%" alt="프로젝트 미리보기" />
